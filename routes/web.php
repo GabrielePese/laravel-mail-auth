@@ -18,4 +18,4 @@ Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/show/{id}', 'HomeController@show') -> name ('pos-show');
-Route::get('/destroy/{id})', 'LoggedController@destroy') -> name('pos-destroy');
+Route::get('/destroy/{id}', 'LoggedController@destroy') -> name('pos-destroy');
